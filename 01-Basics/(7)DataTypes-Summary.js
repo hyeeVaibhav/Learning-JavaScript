@@ -66,3 +66,20 @@ const myFunction = function(name) {
 
 myFunction("vaibhav");
 console.log (typeof myFunction); // function
+
+
+// stack(primitives) and heap(non-primitives) memory allocation in JS:-
+
+// In JavaScript, primitive data types are stored in the stack memory, while non-primitive data types are stored in the heap memory.
+
+//example:-
+
+let myYouTUbeName = "vaibhav";
+// here myYouTubeName variable is stored in stack memory because it is a primitive data type (string).
+
+let anotherName = myYouTUbeName;
+console.log(anotherName); // vaibhav
+anotherName = "vaibhav kumar";
+console.log(anotherName); // vaibhav kumar
+console.log(myYouTUbeName); // vaibhav
+// here we can see that when we changed the value of anotherName variable, it did not affect the value of myYouTubeName variable because they are stored in different memory locations in the stack memory. 
