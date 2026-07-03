@@ -82,4 +82,19 @@ console.log(anotherName); // vaibhav
 anotherName = "vaibhav kumar";
 console.log(anotherName); // vaibhav kumar
 console.log(myYouTUbeName); // vaibhav
-// here we can see that when we changed the value of anotherName variable, it did not affect the value of myYouTubeName variable because they are stored in different memory locations in the stack memory. 
+// here we can see that when we changed the value of anotherName variable, it did not affect the value of myYouTubeName variable because they are stored in different memory locations in the stack memory.
+
+
+//understanding reference data types and how they are stored in heap memory:-
+let user1 = {
+    name: "vaibhav",
+    upi: "vaibhav@upi"
+}
+
+let userTwo= user1;
+console.log(userTwo.name);
+
+userTwo.email = "vaibhav@example.com"
+
+console.log(user1.email); // vaibhav@example.com
+console.log(userTwo.email); // vaibhav@example.com
