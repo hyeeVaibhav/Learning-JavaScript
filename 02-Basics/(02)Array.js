@@ -8,7 +8,7 @@ const dc_heros = ["superman", "flash", "batman"];
 // Concat: Merges two arrays and returns a new array.
 const all_heros = marvel_heros.concat(dc_heros);
 console.log(all_heros);
-
+//
 // Spread (...): Modern and preferred way to merge arrays.
 const all_new_heros = [...marvel_heros, ...dc_heros];
 console.log(all_new_heros);
