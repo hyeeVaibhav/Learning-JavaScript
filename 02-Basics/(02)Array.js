@@ -21,6 +21,7 @@ const dc_heros = ["superman", "flash", "batman"];
 
 const all_heros = marvel_heros.concat(dc_heros);
 console.log(all_heros);
+<<<<<<< HEAD
 // Output:
 // ["thor", "spiderman", "ironman", "superman", "flash", "batman"]
 
@@ -29,6 +30,10 @@ console.log(all_heros);
 // Modern and preferred way to merge arrays.
 // Can also be used to add extra elements while merging.
 
+=======
+//
+// Spread (...): Modern and preferred way to merge arrays.
+>>>>>>> 13fc2cb2f65722722df19c93cf057a43d98ef72c
 const all_new_heros = [...marvel_heros, ...dc_heros];
 console.log(all_new_heros);
 // Output:
@@ -84,6 +89,7 @@ console.log(Array.of(score1, score2, score3));
 
 
 /*
+<<<<<<< HEAD
 ======================== Quick Revision ========================
 
 push()         -> Adds an array as ONE element (modifies original array).
@@ -102,3 +108,11 @@ Array.of()     -> Creates an array from individual values.
 
 ===============================================================
 */
+=======
+Quick Difference:
+push()   -> Adds an array as one element.
+concat() -> Merges arrays into a new array.
+spread() -> Modern, flexible way to merge arrays.
+flat()   -> Removes nested arrays.
+*/
+>>>>>>> 13fc2cb2f65722722df19c93cf057a43d98ef72c
