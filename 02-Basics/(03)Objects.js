@@ -5,7 +5,7 @@
 // -> Object literals do NOT create singleton objects.
 
 // ==================================================================
-// Object Literal
+// Object Literalss
 
 const mySym = Symbol("key1");
 
