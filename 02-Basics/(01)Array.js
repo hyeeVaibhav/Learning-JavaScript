@@ -4,7 +4,7 @@
 
 const myArr = [0, 1, 2, 3, 4, 5, "vaibhav"];
 
-// Accessing an element of an array
+// Accessing an element of an array  ...
 console.log(myArr[0]); // Output: 0
 
 const superHeros = ["Spiderman", "Batman"];
