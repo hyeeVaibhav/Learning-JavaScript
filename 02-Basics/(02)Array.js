@@ -2,7 +2,7 @@ const marvel_heros = ["thor", "spiderman", "ironman"];
 const dc_heros = ["superman", "flash", "batman"];
 
 // ---------------------- push() ----------------------
-// Adds the entire array as a single element to the existing array.
+// Adds the entire array as a single elementss to the existing array.
 // Modifies the original array.
 
 // marvel_heros.push(dc_heros);
