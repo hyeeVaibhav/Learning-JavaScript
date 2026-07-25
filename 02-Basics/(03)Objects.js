@@ -29,10 +29,10 @@ const JsUser = {
 // Accessing Object Properties
 
 // 1. Dot Notation (Most commonly used)
-console.log(JsUser.location);
+console.log(JsUser.location); //Bihar
 
 // 2. Bracket Notation
-console.log(JsUser["location"]);
+console.log(JsUser["location"]); //Bihar 
 
 // Bracket notation is required when:
 // ✔ Property name contains spaces
