@@ -274,3 +274,55 @@ console.log(
     MongoDB documents, and configuration data are all based
     on objects.
 */
+
+
+// ==================== Array Destructuring ====================
+
+// Extract values based on their position (index)
+
+const fruits = ["Apple", "Banana", "Mango"];
+
+const [first, second, third] = fruits;
+
+console.log(first);   // Apple
+console.log(second);  // Banana
+console.log(third);   // Mango
+
+
+// ==================== Object Destructuring ====================
+
+// Extract values based on property names (keys)
+
+const course = {
+    course_name: "JavaScript",
+    price: "999",
+    courseInstructor: "Vaibhav",
+};
+
+// Normal way to access a property
+console.log(course.courseInstructor);
+
+// Object destructuring
+const { courseInstructor } = course;
+console.log(courseInstructor);
+
+// Destructuring with a custom variable name
+const { courseInstructor: instructor } = course;
+console.log(instructor);
+
+
+// ========================= JSON =========================
+
+// JSON (JavaScript Object Notation)
+// Used to exchange data between client and server (APIs)
+// - Keys must be in double quotes
+// - No functions or comments allowed
+
+{
+    "name": "Vaibhav",
+    "courseName": "JS",
+    "price": "free"
+}
+
+// Object ➜ JSON : JSON.stringify(obj)
+// JSON ➜ Object : JSON.parse(json)
